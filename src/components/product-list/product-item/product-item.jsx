@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { formatCurrency } from "../../../utils/helpers";
+import { formatCurrency } from "utils/helpers";
 import * as S from "./styles";
 
 const ProductItem = ({ id, title, images, productVariants }) => {

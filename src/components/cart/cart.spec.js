@@ -1,10 +1,10 @@
-import React from 'react';
-import { screen, fireEvent } from '@testing-library/react';
-import { CartContext } from '../../contexts';
-import { renderWithTheme } from '../../utils/test/helpers';
-import { formatCurrency } from '../../utils/helpers';
-import Cart from './cart';
-import faker from 'faker';
+import React from "react";
+import { screen, fireEvent } from "@testing-library/react";
+import { CartContext } from "contexts";
+import { renderWithTheme } from "utils/test/helpers";
+import { formatCurrency } from "utils/helpers";
+import { Cart } from "components";
+import faker from "faker";
 
 const mockCartItems = () => [
   {
@@ -33,40 +33,42 @@ const makeSut = (cartItems = mockCartItems()) => {
       }}
     >
       <Cart />
-    </CartContext.Provider>,
+    </CartContext.Provider>
   );
 };
 
-describe('Cart Component', () => {
-  test('Should render cartItems', () => {
+describe("Cart Component", () => {
+  test("Should render cartItems", () => {
     const cartItems = mockCartItems();
     makeSut(cartItems);
-    expect(screen.getByTestId('quantity-items')).toHaveTextContent('2');
-    fireEvent.click(screen.getByTestId('bag'));
-    const cartList = screen.getByTestId('cart-list');
-    expect(cartList.querySelectorAll('li')).toHaveLength(2);
-    expect(screen.getByTestId(`${cartItems[0].title}-quantity`)).toHaveTextContent(
-      cartItems[0].quantity,
+    expect(screen.getByTestId("quantity-items")).toHaveTextContent("2");
+    fireEvent.click(screen.getByTestId("bag"));
+    const cartList = screen.getByTestId("cart-list");
+    expect(cartList.querySelectorAll("li")).toHaveLength(2);
+    expect(
+      screen.getByTestId(`${cartItems[0].title}-quantity`)
+    ).toHaveTextContent(cartItems[0].quantity);
+    expect(screen.getByTestId(`${cartItems[0].title}-title`)).toHaveTextContent(
+      cartItems[0].title
     );
-    expect(screen.getByTestId(`${cartItems[0].title}-title`)).toHaveTextContent(cartItems[0].title);
     expect(screen.getByTestId(`${cartItems[0].title}-image`)).toHaveAttribute(
-      'src',
-      cartItems[0].image,
+      "src",
+      cartItems[0].image
     );
     expect(screen.getByTestId(`${cartItems[0].title}-price`)).toHaveTextContent(
-      formatCurrency(cartItems[0].price),
+      formatCurrency(cartItems[0].price)
     );
 
-    const cart = screen.getByTestId('cart');
-    fireEvent.click(screen.getByTestId('close-cart'));
+    const cart = screen.getByTestId("cart");
+    fireEvent.click(screen.getByTestId("close-cart"));
     expect(cart).not.toBeInTheDocument();
   });
 
-  test('Should call close cart', () => {
+  test("Should call close cart", () => {
     makeSut();
-    fireEvent.click(screen.getByTestId('bag'));
-    const cart = screen.getByTestId('cart');
-    fireEvent.click(screen.getByTestId('close-cart'));
+    fireEvent.click(screen.getByTestId("bag"));
+    const cart = screen.getByTestId("cart");
+    fireEvent.click(screen.getByTestId("close-cart"));
     expect(cart).not.toBeInTheDocument();
   });
 });

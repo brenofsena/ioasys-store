@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { ReactComponent as CloseIcon } from "../../assets/icons/close.svg";
-import { ReactComponent as BagIcon } from "../../assets/icons/bag.svg";
+import { ReactComponent as CloseIcon } from "assets/icons/close.svg";
+import { ReactComponent as BagIcon } from "assets/icons/bag.svg";
 import * as S from "./styles";
 
 const Cart = () => {

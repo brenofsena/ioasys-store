@@ -1,17 +1,17 @@
-import React from 'react';
-import { screen } from '@testing-library/react';
-import { renderWithTheme } from '../../utils/test/helpers';
-import Footer from './footer';
+import React from "react";
+import { screen } from "@testing-library/react";
+import { renderWithTheme } from "utils/test/helpers";
+import { Footer } from "components";
 
 const makeSut = () => {
   renderWithTheme(<Footer />);
 };
 
-describe('Footer Component', () => {
-  test('Should render correct', () => {
+describe("Footer Component", () => {
+  test("Should render correct", () => {
     makeSut();
-    expect(screen.getByTestId('copyright')).toHaveTextContent(
-      '© 2021 Ioasys - Todos os direitos reservados.',
+    expect(screen.getByTestId("copyright")).toHaveTextContent(
+      "© 2021 Ioasys - Todos os direitos reservados."
     );
   });
 });

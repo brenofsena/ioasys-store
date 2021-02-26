@@ -1,6 +1,5 @@
 import React from "react";
-import Logo from "../logo/logo";
-import Cart from "../cart/cart";
+import { Logo, Cart } from "components";
 import * as S from "./styles";
 
 const Header = () => {

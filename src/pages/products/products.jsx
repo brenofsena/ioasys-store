@@ -1,22 +1,23 @@
 import React, { useEffect, useState } from "react";
-import { Header, Footer, Cart, Spinner, ProductList } from "../../components";
+import { Header, Footer, Cart, Spinner, ProductList } from "components";
 import * as S from "./styles";
-import api from "../../services/api";
+import api from "services/api";
 
 const Products = () => {
   const [shelfs, setShelfs] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
   const getProducts = async () => {
+    setIsLoading(true);
+
     try {
-      setIsLoading(true);
       const { data } = await api.get("/products");
       setShelfs(data);
-      setIsLoading(false);
     } catch (error) {
       console.error(`Erro: ${error.message}`);
-      setIsLoading(false);
     }
+
+    setIsLoading(false);
   };
 
   useEffect(() => {
