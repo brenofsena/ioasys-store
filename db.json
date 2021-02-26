@@ -999,28 +999,28 @@
       "categoryTitle": "Vinhos",
       "products": [
         {
-          "id": "9537",
-          "title": "Vinho Chileno Tinto Seco Merlot Garrafa 750ml",
+          "id": "9457",
+          "title": "Torcida Pimenta Mexicana",
           "rgb": false,
           "images": [
             {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009537_f9ba8b41-3e7d-4d68-b8bd-eec7d1d63d5d.jpg",
+              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009457_afca9fbf-301b-4629-a68c-c2222efa9d01.jpg",
               "__typename": "ProductImage"
             }
           ],
           "productVariants": [
             {
               "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "9171",
-              "price": 54.9,
-              "inventoryItemId": "80297",
-              "shortDescription": "",
-              "title": "Vinho Chileno Tinto Seco Merlot Garrafa 750ml",
+              "productVariantId": "9091",
+              "price": 5.5,
+              "inventoryItemId": "80345",
+              "shortDescription": null,
+              "title": "Torcida Pimenta Mexicana",
               "published": null,
-              "volume": "0,0075",
+              "volume": "0",
               "volumeUnit": null,
-              "description": "",
-              "subtitle": "Vinhos",
+              "description": null,
+              "subtitle": "Para matar a fome",
               "components": [],
               "__typename": "ProductVariant"
             }
@@ -1028,28 +1028,28 @@
           "__typename": "Product"
         },
         {
-          "id": "9543",
-          "title": "Vinho Chileno Branco Chardonnay 750ml",
+          "id": "9407",
+          "title": "Doritos Queijo Nacho 55g",
           "rgb": false,
           "images": [
             {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009543_adf61e69-b97e-4938-a659-b4fdb30d428b.jpg",
+              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009407_91c56ba0-0fe4-4ee5-a3e7-938ce2f13367.jpg",
               "__typename": "ProductImage"
             }
           ],
           "productVariants": [
             {
               "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "9177",
-              "price": 54.9,
-              "inventoryItemId": "80295",
-              "shortDescription": "",
-              "title": "Vinho Chileno Branco Chardonnay 750ml",
+              "productVariantId": "9041",
+              "price": 7.5,
+              "inventoryItemId": "80336",
+              "shortDescription": null,
+              "title": "Doritos Queijo Nacho 55g",
               "published": null,
-              "volume": "0,0075",
+              "volume": "0",
               "volumeUnit": null,
-              "description": "",
-              "subtitle": "Vinhos",
+              "description": null,
+              "subtitle": "Para matar a fome",
               "components": [],
               "__typename": "ProductVariant"
             }
@@ -1057,28 +1057,28 @@
           "__typename": "Product"
         },
         {
-          "id": "9540",
-          "title": "Vinho Chileno Tinto Seco Reservado Carmenere Garrafa 750ml",
+          "id": "9414",
+          "title": "Ruffles Original 57g",
           "rgb": false,
           "images": [
             {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/products/9174.png",
+              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009414_91d2e756-8b3b-4363-ba91-2c8c8b82eeef.jpg",
               "__typename": "ProductImage"
             }
           ],
           "productVariants": [
             {
               "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "9174",
-              "price": 54.9,
-              "inventoryItemId": "80298",
-              "shortDescription": "",
-              "title": "Vinho Chileno Tinto Seco Reservado Carmenere Garrafa 750ml",
+              "productVariantId": "9048",
+              "price": 7.5,
+              "inventoryItemId": "80347",
+              "shortDescription": null,
+              "title": "Ruffles Original 57g",
               "published": null,
-              "volume": "0,0075",
+              "volume": "0",
               "volumeUnit": null,
-              "description": "",
-              "subtitle": "Vinhos",
+              "description": null,
+              "subtitle": "Para matar a fome",
               "components": [],
               "__typename": "ProductVariant"
             }
@@ -1086,28 +1086,173 @@
           "__typename": "Product"
         },
         {
-          "id": "9541",
-          "title": "Vinho Chileno Tinto Seco Reservado Cabernet Sauvignon 750ml",
+          "id": "9449",
+          "title": "Ovinhos de Amendoim Elma Chips",
           "rgb": false,
           "images": [
             {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/products/9175.png",
+              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009449_edc8f58d-8943-4c17-8b94-10dc60608b09.jpg",
               "__typename": "ProductImage"
             }
           ],
           "productVariants": [
             {
               "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "9175",
-              "price": 54.9,
-              "inventoryItemId": "80340",
-              "shortDescription": "",
-              "title": "Vinho Chileno Tinto Seco Reservado Cabernet Sauvignon 750ml",
+              "productVariantId": "9083",
+              "price": 9.9,
+              "inventoryItemId": "80341",
+              "shortDescription": null,
+              "title": "Ovinhos de Amendoim Elma Chips",
               "published": null,
-              "volume": "0,0075",
+              "volume": "0",
               "volumeUnit": null,
-              "description": "",
-              "subtitle": "Vinhos",
+              "description": null,
+              "subtitle": "Para matar a fome",
+              "components": [],
+              "__typename": "ProductVariant"
+            }
+          ],
+          "__typename": "Product"
+        },
+        {
+          "id": "9447",
+          "title": "Amendoim Japonês Elma Chips",
+          "rgb": false,
+          "images": [
+            {
+              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/5722613fb7a48.jpg",
+              "__typename": "ProductImage"
+            }
+          ],
+          "productVariants": [
+            {
+              "availableDate": "2018-10-31T00:00:00",
+              "productVariantId": "9081",
+              "price": 11.9,
+              "inventoryItemId": "80344",
+              "shortDescription": null,
+              "title": "Amendoim Japonês Elma Chips",
+              "published": null,
+              "volume": "0",
+              "volumeUnit": null,
+              "description": null,
+              "subtitle": null,
+              "components": [],
+              "__typename": "ProductVariant"
+            }
+          ],
+          "__typename": "Product"
+        },
+        {
+          "id": "9428",
+          "title": "Pringles Original",
+          "rgb": false,
+          "images": [
+            {
+              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009428_adc57e3c-1279-4498-82dc-ce26cadb8dc6.jpg",
+              "__typename": "ProductImage"
+            }
+          ],
+          "productVariants": [
+            {
+              "availableDate": "2018-10-31T00:00:00",
+              "productVariantId": "9062",
+              "price": 29.9,
+              "inventoryItemId": "80349",
+              "shortDescription": null,
+              "title": "Pringles Original",
+              "published": null,
+              "volume": "0",
+              "volumeUnit": null,
+              "description": null,
+              "subtitle": "Para matar a fome",
+              "components": [],
+              "__typename": "ProductVariant"
+            }
+          ],
+          "__typename": "Product"
+        },
+        {
+          "id": "9456",
+          "title": "Torcida Cebola",
+          "rgb": false,
+          "images": [
+            {
+              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009456_ea34eda0-71fe-4d41-9c8c-460475206a3e.jpg",
+              "__typename": "ProductImage"
+            }
+          ],
+          "productVariants": [
+            {
+              "availableDate": "2018-10-31T00:00:00",
+              "productVariantId": "9090",
+              "price": 5.5,
+              "inventoryItemId": "80306",
+              "shortDescription": null,
+              "title": "Torcida Cebola",
+              "published": null,
+              "volume": "0",
+              "volumeUnit": null,
+              "description": null,
+              "subtitle": "Destaques & Promoções",
+              "components": [],
+              "__typename": "ProductVariant"
+            }
+          ],
+          "__typename": "Product"
+        },
+        {
+          "id": "9468",
+          "title": "Pipoca Sabor Natural - 100g",
+          "rgb": false,
+          "images": [
+            {
+              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009468_0eef7058-71b7-4c31-b8a3-473d62f0f710.jpg",
+              "__typename": "ProductImage"
+            }
+          ],
+          "productVariants": [
+            {
+              "availableDate": "2018-10-31T00:00:00",
+              "productVariantId": "9102",
+              "price": 5.5,
+              "inventoryItemId": "80301",
+              "shortDescription": null,
+              "title": "Pipoca Sabor Natural - 100g",
+              "published": null,
+              "volume": "0",
+              "volumeUnit": null,
+              "description": null,
+              "subtitle": "Para matar a fome",
+              "components": [],
+              "__typename": "ProductVariant"
+            }
+          ],
+          "__typename": "Product"
+        },
+        {
+          "id": "9470",
+          "title": "Pipoca Sabor Manteiga - 100g",
+          "rgb": false,
+          "images": [
+            {
+              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009470_6aeaf4f0-4a58-407c-b651-2f779efd582a.jpg",
+              "__typename": "ProductImage"
+            }
+          ],
+          "productVariants": [
+            {
+              "availableDate": "2018-10-31T00:00:00",
+              "productVariantId": "9104",
+              "price": 5.5,
+              "inventoryItemId": "80302",
+              "shortDescription": null,
+              "title": "Pipoca Sabor Manteiga - 100g",
+              "published": null,
+              "volume": "0",
+              "volumeUnit": null,
+              "description": null,
+              "subtitle": "Para matar a fome",
               "components": [],
               "__typename": "ProductVariant"
             }
