@@ -28,7 +28,7 @@ export const CartWrapper = styled.div`
   bottom: 0;
   height: 100vh;
   width: 25%;
-  background: ${(props) => props.theme.colors.background};
+  background: ${(props) => props.theme.colors.whiteSoft};
   display: flex;
   flex-direction: column;
   box-shadow: ${(props) => props.theme.boxShadow};

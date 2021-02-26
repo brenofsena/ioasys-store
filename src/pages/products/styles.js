@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ProductsWrapper = styled.div`
-  background: ${(props) => props.theme.colors.background};
+  background: ${(props) => props.theme.colors.whiteSoft};
   min-height: 100vh;
   display: flex;
   flex-flow: column;
