@@ -1,9 +1,13 @@
-import React, { useState } from "react";
-import { ReactComponent as CloseIcon } from "assets/icons/close.svg";
-import { ReactComponent as BagIcon } from "assets/icons/bag.svg";
-import * as S from "./styles";
+import React, { useState } from 'react';
+import { ReactComponent as CloseIcon } from 'assets/icons/close.svg';
+import { ReactComponent as BagIcon } from 'assets/icons/bag.svg';
+import { ReactComponent as TrashIcon } from 'assets/icons/trash.svg';
+import { formatCurrency } from 'utils/helpers';
+import * as S from './styles';
 
 const Cart = () => {
+  const cartItems = [];
+
   const [isOpen, setIsOpen] = useState(false);
 
   const handleOpenCart = () => {
@@ -18,7 +22,7 @@ const Cart = () => {
     <>
       <S.Bag onClick={handleOpenCart} data-testid="bag">
         <BagIcon width={24} height={24} />
-        {/* <span data-testid="quantity-items">{cartItems.length}</span> */}
+        <span data-testid="quantity-items">{cartItems.length}</span>
       </S.Bag>
 
       {isOpen && (
@@ -34,7 +38,7 @@ const Cart = () => {
                 data-testid="close-cart"
               />
             </S.CartHeader>
-            {/* 
+
             {cartItems && cartItems.length ? (
               <S.CartList data-testid="cart-list">
                 {cartItems?.map(({ id, title, price, imageUrl, quantity }) => (
@@ -48,8 +52,10 @@ const Cart = () => {
                         title={title}
                       />
                       <p data-testid={`${title}-title`}>{title}</p>
-                      <span data-testid={`${title}-price`}>{formatCurrency(price)}</span>
-                      <button onClick={() => removeItemToCart(id)}>
+                      <span data-testid={`${title}-price`}>
+                        {formatCurrency(price)}
+                      </span>
+                      <button>
                         <TrashIcon width={24} height={24} />
                       </button>
                     </div>
@@ -60,19 +66,19 @@ const Cart = () => {
               <S.CartEmpty>
                 <span>Ops! Você não tem itens na sua sacola</span>
               </S.CartEmpty>
-            )} */}
-
-            <S.CartEmpty>
-              <span>Ops! Você não tem itens na sua sacola</span>
-            </S.CartEmpty>
+            )}
 
             <S.CartFooter>
               <S.CartTotals>
-                Total:{" "}
+                Total:{' '}
                 <strong>
-                  {/* {formatCurrency(
-                    cartItems.reduce((prev, current) => prev + current.price * current.quantity, 0),
-                  )} */}
+                  {formatCurrency(
+                    cartItems.reduce(
+                      (prev, current) =>
+                        prev + current.price * current.quantity,
+                      0,
+                    ),
+                  )}
                 </strong>
               </S.CartTotals>
             </S.CartFooter>
