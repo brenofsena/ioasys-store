@@ -1,6 +1,5 @@
 import React from "react";
 import { screen, fireEvent } from "@testing-library/react";
-import { CartContext } from "contexts";
 import { renderWithTheme } from "utils/test/helpers";
 import { formatCurrency } from "utils/helpers";
 import { Cart } from "components";
@@ -8,14 +7,14 @@ import faker from "faker";
 
 const mockCartItems = () => [
   {
-    id: faker.random.uuid(),
+    id: faker.datatype.uuid(),
     title: faker.commerce.productName(),
     price: faker.commerce.price(),
     imageUrl: faker.internet.url(),
     quantity: 1,
   },
   {
-    id: faker.random.uuid(),
+    id: faker.datatype.uuid(),
     title: faker.commerce.productName(),
     price: faker.commerce.price(),
     imageUrl: faker.internet.url(),
@@ -24,17 +23,7 @@ const mockCartItems = () => [
 ];
 
 const makeSut = (cartItems = mockCartItems()) => {
-  renderWithTheme(
-    <CartContext.Provider
-      value={{
-        cartItems,
-        addItemToCart: () => jest.fn(),
-        removeItemToCart: () => jest.fn(),
-      }}
-    >
-      <Cart />
-    </CartContext.Provider>
-  );
+  renderWithTheme(<Cart cartItems={cartItems} />);
 };
 
 describe("Cart Component", () => {

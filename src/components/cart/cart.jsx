@@ -1,13 +1,11 @@
-import React, { useState } from 'react';
-import { ReactComponent as CloseIcon } from 'assets/icons/close.svg';
-import { ReactComponent as BagIcon } from 'assets/icons/bag.svg';
-import { ReactComponent as TrashIcon } from 'assets/icons/trash.svg';
-import { formatCurrency } from 'utils/helpers';
-import * as S from './styles';
+import React, { useState } from "react";
+import { ReactComponent as CloseIcon } from "assets/icons/close.svg";
+import { ReactComponent as BagIcon } from "assets/icons/bag.svg";
+import { ReactComponent as TrashIcon } from "assets/icons/trash.svg";
+import { formatCurrency } from "utils/helpers";
+import * as S from "./styles";
 
-const Cart = () => {
-  const cartItems = [];
-
+const Cart = ({ cartItems }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleOpenCart = () => {
@@ -18,11 +16,19 @@ const Cart = () => {
     setIsOpen(false);
   };
 
+  const getPrice = () =>
+    formatCurrency(
+      cartItems?.reduce(
+        (prev, current) => prev + current.price * current.quantity,
+        0
+      ) ?? 0
+    );
+
   return (
     <>
       <S.Bag onClick={handleOpenCart} data-testid="bag">
         <BagIcon width={24} height={24} />
-        <span data-testid="quantity-items">{cartItems.length}</span>
+        <span data-testid="quantity-items">{cartItems?.length}</span>
       </S.Bag>
 
       {isOpen && (
@@ -70,16 +76,7 @@ const Cart = () => {
 
             <S.CartFooter>
               <S.CartTotals>
-                Total:{' '}
-                <strong>
-                  {formatCurrency(
-                    cartItems.reduce(
-                      (prev, current) =>
-                        prev + current.price * current.quantity,
-                      0,
-                    ),
-                  )}
-                </strong>
+                Total: <strong>{getPrice()}</strong>
               </S.CartTotals>
             </S.CartFooter>
           </S.CartWrapper>
