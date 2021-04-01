@@ -4,15 +4,15 @@ import * as S from "./styles";
 import api from "services/api";
 
 const Products = () => {
-  const [shelfs, setShelfs] = useState([]);
+  const [shelves, setShelves] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
-  const getProducts = async () => {
+  const getShelves = async () => {
     setIsLoading(true);
 
     try {
-      const { data } = await api.get("/products");
-      setShelfs(data);
+      const { data } = await api.get("/shelves");
+      setShelves(data);
     } catch (error) {
       console.error(`Erro: ${error.message}`);
     }
@@ -21,7 +21,7 @@ const Products = () => {
   };
 
   useEffect(() => {
-    getProducts();
+    getShelves();
   }, []);
 
   return (
@@ -31,11 +31,11 @@ const Products = () => {
         {isLoading ? (
           <Spinner />
         ) : (
-          shelfs.map(({ categoryTitle, products }, index) => (
+          shelves.map(({ displayName, items }, index) => (
             <ProductList
               key={index}
-              categoryTitle={categoryTitle}
-              products={products}
+              categoryTitle={displayName}
+              products={items}
             />
           ))
         )}

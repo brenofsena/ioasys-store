@@ -1,8 +1,8 @@
-import React from 'react';
-import Slider from 'react-slick';
-import PropTypes from 'prop-types';
-import * as S from './styles';
-import ProductItem from './product-item/product-item';
+import React from "react";
+import Slider from "react-slick";
+import PropTypes from "prop-types";
+import * as S from "./styles";
+import ProductItem from "./product-item/product-item";
 
 const ProductList = ({ categoryTitle, products }) => {
   const settings = {
@@ -14,7 +14,6 @@ const ProductList = ({ categoryTitle, products }) => {
     slidesToScroll: 5,
     autoplay: true,
     autoplaySpeed: 2000,
-    lazyLoad: true,
     responsive: [
       {
         breakpoint: 767,
@@ -31,16 +30,18 @@ const ProductList = ({ categoryTitle, products }) => {
     <S.ProductList>
       <S.Wrapper>
         {categoryTitle && (
-          <S.Category data-testid={`category-title-${categoryTitle}`}>{categoryTitle}</S.Category>
+          <S.Category data-testid={`category-title-${categoryTitle}`}>
+            {categoryTitle}
+          </S.Category>
         )}
         <Slider {...settings} data-testid={`slider-${categoryTitle}`}>
-          {products?.map(({ id, title, images, productVariants }) => (
+          {products?.map(({ id, displayName, images, price }) => (
             <ProductItem
               key={id}
               id={id}
-              title={title}
+              title={displayName}
               images={images}
-              productVariants={productVariants}
+              price={price.max}
             />
           ))}
         </Slider>

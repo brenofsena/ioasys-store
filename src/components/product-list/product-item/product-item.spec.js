@@ -1,23 +1,14 @@
-import React from 'react';
-import { screen } from '@testing-library/react';
-import ProductItem from './product-item';
-import { renderWithTheme } from '../../../utils/test/helpers';
-import { formatCurrency } from '../../../utils/helpers';
-import faker from 'faker';
+import React from "react";
+import { screen } from "@testing-library/react";
+import ProductItem from "./product-item";
+import { renderWithTheme } from "../../../utils/test/helpers";
+import faker from "faker";
 
 const mockProduct = () => ({
-  id: faker.random.uuid(),
+  id: faker.datatype.uuid(),
   title: faker.commerce.productName(),
-  images: [
-    {
-      url: faker.internet.url(),
-    },
-  ],
-  productVariants: [
-    {
-      price: faker.commerce.price(),
-    },
-  ],
+  images: [faker.internet.url()],
+  price: Number(faker.commerce.price()),
 });
 
 const makeSut = (product = mockProduct()) => {
@@ -26,19 +17,20 @@ const makeSut = (product = mockProduct()) => {
       id={product.id}
       title={product.title}
       images={product.images}
-      productVariants={product.productVariants}
-    />,
+      price={product.price}
+    />
   );
 };
 
-describe('ProductItem Component', () => {
-  test('Should render with correct values', () => {
+describe("ProductItem Component", () => {
+  test("Should render with correct values", () => {
     const product = mockProduct();
     makeSut(product);
-    expect(screen.getByTestId('image')).toHaveAttribute('src', product.images[0].url);
-    expect(screen.getByTestId('title')).toHaveTextContent(product.title);
-    expect(screen.getByTestId('price')).toHaveTextContent(
-      formatCurrency(product.productVariants[0].price),
+    expect(screen.getByTestId("image")).toHaveAttribute(
+      "src",
+      product.images[0]
     );
+    expect(screen.getByTestId("title")).toHaveTextContent(product.title);
+    expect(screen.getByTestId("price")).toHaveTextContent(product.price);
   });
 });

@@ -1,1265 +1,524 @@
 {
-  "products": [
+  "shelves": [
     {
-      "categoryTitle": "Cervejas",
-      "products": [
+      "id": "e906fd89-ecc2-43a7-89a9-4731543d5e47",
+      "type": "CATEGORY",
+      "displayName": "Cervejas",
+      "items": [
         {
-          "id": "8868",
-          "title": "Skol 269ml - Unidade",
-          "rgb": false,
+          "shelveId": "e906fd89-ecc2-43a7-89a9-4731543d5e47",
+          "id": "8726",
+          "type": "PRODUCT",
           "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/8868_205f958d-2e51-48a3-b4d5-a2998765571a.jpg",
-              "__typename": "ProductImage"
-            }
+            "https://courier-images-prod.imgix.net/produc_variant/00008726_d54d22da-382f-4e76-b941-0fb91098e01c.jpg"
           ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8502",
-              "price": 2.09,
-              "inventoryItemId": "80149",
-              "shortDescription": null,
-              "title": "Skol 269ml - Unidade",
-              "published": null,
-              "volume": "0,00269",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
+          "displayName": "Skol 300ml | Vasilhame Incluso",
+          "applicableDiscount": null,
+          "category": null,
+          "brand": null,
+          "price": {
+            "min": 2.49,
+            "max": 2.49
+          }
         },
         {
-          "id": "8869",
-          "title": "Skol 269ml - Pack com 15 Unidades",
-          "rgb": false,
+          "shelveId": "e906fd89-ecc2-43a7-89a9-4731543d5e47",
+          "id": "8725",
+          "type": "PRODUCT",
           "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/products/8503.png",
-              "__typename": "ProductImage"
-            }
+            "https://courier-images-prod.imgix.net/produc_variant/00008725_c431fbf8-5f01-4a90-aaa1-a06cff9306e8.jpg"
           ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8503",
-              "price": 31.35,
-              "inventoryItemId": "80151",
-              "shortDescription": null,
-              "title": "Skol 269ml - Pack com 15 Unidades",
-              "published": null,
-              "volume": "0,04035",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
+          "displayName": "Skol 300ml | Apenas o Líquido",
+          "applicableDiscount": null,
+          "category": null,
+          "brand": null,
+          "price": {
+            "min": 1.99,
+            "max": 1.99
+          }
         },
         {
-          "id": "8877",
-          "title": "Brahma 269ml - Unidade",
-          "rgb": false,
+          "shelveId": "e906fd89-ecc2-43a7-89a9-4731543d5e47",
+          "id": "8729",
+          "type": "PRODUCT",
           "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008877_02c7ebe9-c23a-405c-8af8-8f0988f276c7.jpg",
-              "__typename": "ProductImage"
-            }
+            "https://courier-images-prod.imgix.net/produc_variant/00008729_e095d6d8-7491-458c-8225-1ee8e9b76d27.jpg"
           ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8511",
-              "price": 1.99,
-              "inventoryItemId": "80139",
-              "shortDescription": null,
-              "title": "Brahma 269ml - Unidade",
-              "published": null,
-              "volume": "0,00269",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": null,
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
+          "displayName": "Brahma Chopp 300ml | Apenas o Líquido",
+          "applicableDiscount": null,
+          "category": null,
+          "brand": null,
+          "price": {
+            "min": 1.99,
+            "max": 1.99
+          }
         },
         {
-          "id": "8878",
-          "title": "Brahma 269ml - Pack com 15 Unidades",
-          "rgb": false,
+          "shelveId": "e906fd89-ecc2-43a7-89a9-4731543d5e47",
+          "id": "8730",
+          "type": "PRODUCT",
           "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008878_03ce3fab-0a5c-4e83-ac4a-8371370e92c5.jpg",
-              "__typename": "ProductImage"
-            }
+            "https://courier-images-prod.imgix.net/produc_variant/00008730_80d814e8-a290-4742-b4d6-91bb95d4bdcb.jpg"
           ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8512",
-              "price": 29.85,
-              "inventoryItemId": "80140",
-              "shortDescription": null,
-              "title": "Brahma 269ml - Pack com 15 Unidades",
-              "published": null,
-              "volume": "0,04035",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": null,
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
+          "displayName": "Brahma Chopp 300ml | Vasilhame Incluso",
+          "applicableDiscount": null,
+          "category": null,
+          "brand": null,
+          "price": {
+            "min": 2.49,
+            "max": 2.49
+          }
         },
         {
-          "id": "8880",
-          "title": "Brahma 350ml - Pack com 12 Unidades",
-          "rgb": false,
+          "shelveId": "e906fd89-ecc2-43a7-89a9-4731543d5e47",
+          "id": "8502",
+          "type": "PRODUCT",
           "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/8880_47d948bc-eaa5-44b2-a443-d9bbb07bc43e.jpg",
-              "__typename": "ProductImage"
-            }
+            "https://courier-images-prod.imgix.net/produc_variant/00008502_8df6cda6-722b-4523-9afd-bb518ec1efb1.jpg"
           ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8514",
-              "price": 27.48,
-              "inventoryItemId": "80143",
-              "shortDescription": null,
-              "title": "Brahma 350ml - Pack com 12 Unidades",
-              "published": null,
-              "volume": "0,042",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "8946",
-          "title": "Budweiser 350ml - Caixa com 12 Unidades",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008946_df1f1e8c-3207-48fe-9d75-6894b11030c3.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8580",
-              "price": 44.28,
-              "inventoryItemId": "80159",
-              "shortDescription": null,
-              "title": "Budweiser 350ml - Caixa com 12 Unidades",
-              "published": null,
-              "volume": "0,042",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "8945",
-          "title": "Budweiser 350ml  - Unidade",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008945_0c8915c4-f78e-4c00-927d-6cd045dd1203.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8579",
-              "price": 3.69,
-              "inventoryItemId": "80158",
-              "shortDescription": null,
-              "title": "Budweiser 350ml  - Unidade",
-              "published": null,
-              "volume": "0,0035",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "8948",
-          "title": "Stella Artois 275ml - Pack com 6 unidades",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008948_c04c82d7-6c1d-4f59-9e12-a33b5fecee47.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8582",
-              "price": 22.74,
-              "inventoryItemId": "80331",
-              "shortDescription": null,
-              "title": "Stella Artois 275ml - Pack com 6 unidades",
-              "published": null,
-              "volume": "0,0165",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "8947",
-          "title": "Stella Artois 275ml - Unidade",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008947_7e57513b-d574-4e91-919c-446c7b1c84fb.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8581",
-              "price": 3.79,
-              "inventoryItemId": "80162",
-              "shortDescription": null,
-              "title": "Stella Artois 275ml - Unidade",
-              "published": null,
-              "volume": "0,00275",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "8942",
-          "title": "Budweiser 343ml - Pack com 6 Unidades",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008942_0078bead-7ee6-44ea-b875-a758010383e4.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8576",
-              "price": 17.94,
-              "inventoryItemId": "80161",
-              "shortDescription": null,
-              "title": "Budweiser 343ml - Pack com 6 Unidades",
-              "published": null,
-              "volume": "0,02058",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "8941",
-          "title": "Budweiser 343ml - Unidade",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008941_0829bcb0-0596-453a-b6bc-b55fc89a4280.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8575",
-              "price": 2.99,
-              "inventoryItemId": "80160",
-              "shortDescription": null,
-              "title": "Budweiser 343ml - Unidade",
-              "published": null,
-              "volume": "0,00343",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "8954",
-          "title": "Corona Extra 355ml - Pack com 6 unidades",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008954_642d8655-a9e5-423d-bcd3-eb4fddd0a6e7.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8588",
-              "price": 35.94,
-              "inventoryItemId": "80165",
-              "shortDescription": null,
-              "title": "Corona Extra 355ml - Pack com 6 unidades",
-              "published": null,
-              "volume": "0,0213",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "8953",
-          "title": "Corona Extra 355ml - Unidade",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008953_4dbfb5ac-3c8b-4a1d-ad5c-c3ab66c98554.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8587",
-              "price": 5.99,
-              "inventoryItemId": "80164",
-              "shortDescription": null,
-              "title": "Corona Extra 355ml - Unidade",
-              "published": null,
-              "volume": "0,00355",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "8907",
-          "title": "Antarctica Original 300ml - Caixa com 12 Unidades",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008907_f085f483-5ab6-4ca4-96b2-f73f23644596.jpg",
-              "__typename": "ProductImage"
-            },
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008907_f085f483-5ab6-4ca4-96b2-f73f23644596.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8541",
-              "price": 35.88,
-              "inventoryItemId": "80176",
-              "shortDescription": null,
-              "title": "Antarctica Original 300ml - Caixa com 12 Unidades",
-              "published": null,
-              "volume": "0,036",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "8879",
-          "title": "Brahma 350ml - Unidade",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/8879_57e93ce2-f7d3-4544-a838-68095a04281c.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8513",
-              "price": 2.29,
-              "inventoryItemId": "80142",
-              "shortDescription": null,
-              "title": "Brahma 350ml - Unidade",
-              "published": null,
-              "volume": "0,0035",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "8906",
-          "title": "Antarctica Original 300ml - Unidade",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008906_4db198be-3022-434c-accf-0a1f32708860.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8540",
-              "price": 2.99,
-              "inventoryItemId": "80177",
-              "shortDescription": null,
-              "title": "Antarctica Original 300ml - Unidade",
-              "published": null,
-              "volume": "0,003",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "8870",
-          "title": "Skol 350ml - Unidade",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/8870_543a3afb-3076-4471-a13d-c7b107deb881.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8504",
-              "price": 15,
-              "inventoryItemId": "80155",
-              "shortDescription": null,
-              "title": "Skol 350ml - Unidade",
-              "published": null,
-              "volume": "0,0035",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "8909",
-          "title": "Serramalte 300ml - Caixa com 12 Unidades",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008909_12d5ab07-2b00-4047-970b-04e6423332e7.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8543",
-              "price": 37.68,
-              "inventoryItemId": "80174",
-              "shortDescription": null,
-              "title": "Serramalte 300ml - Caixa com 12 Unidades",
-              "published": null,
-              "volume": "0,036",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "8908",
-          "title": "Serramalte 300ml - Unidade",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008908_7884ccb2-f07c-40f7-afdf-50ba9b3cd06f.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8542",
-              "price": 3.14,
-              "inventoryItemId": "80175",
-              "shortDescription": null,
-              "title": "Serramalte 300ml - Unidade",
-              "published": null,
-              "volume": "0,003",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "8966",
-          "title": "Skol Beats Senses 269ml - Pack com 8 Unidades",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008966_27938e9b-945d-46a6-b72f-df7e724ac280.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8600",
-              "price": 36.8,
-              "inventoryItemId": "80154",
-              "shortDescription": null,
-              "title": "Skol Beats Senses 269ml - Pack com 8 Unidades",
-              "published": null,
-              "volume": "0,02152",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "8965",
-          "title": "Skol Beats Senses 269ml - Unidade",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008965_e6db7d9c-be12-46fe-a962-27a4e318405b.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8599",
-              "price": 4.6,
-              "inventoryItemId": "80156",
-              "shortDescription": null,
-              "title": "Skol Beats Senses 269ml - Unidade",
-              "published": null,
-              "volume": "0,00269",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "9071",
-          "title": "Norteña 960ml - Unidade",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009071_059728c8-3a65-4c45-9fe1-087016d10d0e.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8705",
-              "price": 15.99,
-              "inventoryItemId": "80166",
-              "shortDescription": null,
-              "title": "Norteña 960ml - Unidade",
-              "published": null,
-              "volume": "0,0096",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "9200",
-          "title": "Brahma Zero 350ml - Caixa com 12 Unidades",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009200_e1dfc4bf-3301-4fa1-a9d0-bc991c3c7cd2.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8834",
-              "price": 36,
-              "inventoryItemId": "80147",
-              "shortDescription": null,
-              "title": "Brahma Zero 350ml - Caixa com 12 Unidades",
-              "published": null,
-              "volume": "0,042",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": null,
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "9199",
-          "title": "Brahma Zero 350ml - Unidade",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009199_7630efb7-4025-448d-ad4b-5b1569d82562.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8833",
-              "price": 3,
-              "inventoryItemId": "80146",
-              "shortDescription": null,
-              "title": "Brahma Zero 350ml - Unidade",
-              "published": null,
-              "volume": "0,0035",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": null,
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "9072",
-          "title": "Quilmes 970ml - Unidade",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009072_c46cdca8-e8c0-471a-8f9c-0a426c3be111.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8706",
-              "price": 15.99,
-              "inventoryItemId": "80167",
-              "shortDescription": null,
-              "title": "Quilmes 970ml - Unidade",
-              "published": null,
-              "volume": "0,0097",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "8961",
-          "title": "Skol Beats Secret 269ml - unidade",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008961_775f8cf6-caa8-4d71-bec8-2f546cc67ad4.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8595",
-              "price": 4.6,
-              "inventoryItemId": "80150",
-              "shortDescription": null,
-              "title": "Skol Beats Secret 269ml - unidade",
-              "published": null,
-              "volume": "0,00269",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": null,
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "8962",
-          "title": "Skol Beats Secret 269ml - Caixa com 8 unidades",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008962_943a1e7f-0038-40eb-b689-9c536610872e.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8596",
-              "price": 36.8,
-              "inventoryItemId": "80157",
-              "shortDescription": null,
-              "title": "Skol Beats Secret 269ml - Caixa com 8 unidades",
-              "published": null,
-              "volume": "0,02152",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "9060",
-          "title": "Hoegaarden 300ml - Unidade",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009060_21945bef-9c45-426a-bd75-82c2445a6ee3.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8694",
-              "price": 8.2,
-              "inventoryItemId": "80179",
-              "shortDescription": null,
-              "title": "Hoegaarden 300ml - Unidade",
-              "published": null,
-              "volume": "0,0033",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "8981",
-          "title": "Brahma Malzbier 350ml - Caixa com 12 Unidades",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008981_e905fb39-9d3e-437b-b6ab-25d636d283e8.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8615",
-              "price": 44.28,
-              "inventoryItemId": "80145",
-              "shortDescription": null,
-              "title": "Brahma Malzbier 350ml - Caixa com 12 Unidades",
-              "published": null,
-              "volume": "0,0426",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": null,
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "8980",
-          "title": "Brahma Malzbier 350ml - Unidade",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008980_71565771-37f1-4f8f-b46b-1ec8b91ebd4a.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8614",
-              "price": 3.69,
-              "inventoryItemId": "80144",
-              "shortDescription": null,
-              "title": "Brahma Malzbier 350ml - Unidade",
-              "published": null,
-              "volume": "0,0035",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": null,
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "8970",
-          "title": "Skol Beats Spirit 269ml - Pack com 8 Unidades",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008970_d44e8bd4-e089-4687-adc6-11cdb89e5306.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8604",
-              "price": 36.8,
-              "inventoryItemId": "80153",
-              "shortDescription": null,
-              "title": "Skol Beats Spirit 269ml - Pack com 8 Unidades",
-              "published": null,
-              "volume": "0,02152",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "8969",
-          "title": "Skol Beats Spirit 269ml - Unidade",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008969_70427375-d82b-47dc-89ce-8c3ff5f837b4.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8603",
-              "price": 4.6,
-              "inventoryItemId": "80152",
-              "shortDescription": null,
-              "title": "Skol Beats Spirit 269ml - Unidade",
-              "published": null,
-              "volume": "0,00269",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "9056",
-          "title": "Leffe Blonde 330ml - Unidade",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009056_0f1edb1e-b2ee-48af-a4fa-145ca1bd61e0.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8690",
-              "price": 14.9,
-              "inventoryItemId": "80335",
-              "shortDescription": null,
-              "title": "Leffe Blonde 330ml - Unidade",
-              "published": null,
-              "volume": "0,0033",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Cervejas Especiais & Importadas",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "8936",
-          "title": "Stella Artois 990ml - Unidade",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/572959e31a74f.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "8570",
-              "price": 6.99,
-              "inventoryItemId": "80163",
-              "shortDescription": null,
-              "title": "Stella Artois 990ml - Unidade",
-              "published": null,
-              "volume": "0,0099",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": null,
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
+          "displayName": "Skol 269ml",
+          "applicableDiscount": null,
+          "category": null,
+          "brand": null,
+          "price": {
+            "min": 2.19,
+            "max": 2.19
+          }
         }
       ]
     },
     {
-      "categoryTitle": "Vinhos",
-      "products": [
+      "id": "733b906f-20ce-4d2c-90b9-835973db2cc1",
+      "type": "CATEGORY",
+      "displayName": "Destilados",
+      "items": [
         {
-          "id": "9457",
-          "title": "Torcida Pimenta Mexicana",
-          "rgb": false,
+          "shelveId": "733b906f-20ce-4d2c-90b9-835973db2cc1",
+          "id": "8599",
+          "type": "PRODUCT",
           "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009457_afca9fbf-301b-4629-a68c-c2222efa9d01.jpg",
-              "__typename": "ProductImage"
-            }
+            "https://courier-images-prod.imgix.net/produc_variant/00008599_8d1176b4-22be-4b1c-8e42-824d4a263441.jpg"
           ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "9091",
-              "price": 5.5,
-              "inventoryItemId": "80345",
-              "shortDescription": null,
-              "title": "Torcida Pimenta Mexicana",
-              "published": null,
-              "volume": "0",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Para matar a fome",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
+          "displayName": "Beats Senses 269ml - Unidade",
+          "applicableDiscount": null,
+          "category": null,
+          "brand": null,
+          "price": {
+            "min": 4.49,
+            "max": 4.49
+          }
         },
         {
-          "id": "9407",
-          "title": "Doritos Queijo Nacho 55g",
-          "rgb": false,
+          "shelveId": "733b906f-20ce-4d2c-90b9-835973db2cc1",
+          "id": "10802",
+          "type": "PRODUCT",
           "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009407_91c56ba0-0fe4-4ee5-a3e7-938ce2f13367.jpg",
-              "__typename": "ProductImage"
-            }
+            "https://courier-images-prod.imgix.net/produc_variant/00010802_5b65acc7-bc1c-4e04-a07f-89681962f7f5.jpg"
           ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "9041",
-              "price": 7.5,
-              "inventoryItemId": "80336",
-              "shortDescription": null,
-              "title": "Doritos Queijo Nacho 55g",
-              "published": null,
-              "volume": "0",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Para matar a fome",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
+          "displayName": "Smirnoff Ice 275ml",
+          "applicableDiscount": null,
+          "category": null,
+          "brand": null,
+          "price": {
+            "min": 7.49,
+            "max": 9
+          }
         },
         {
-          "id": "9414",
-          "title": "Ruffles Original 57g",
-          "rgb": false,
+          "shelveId": "733b906f-20ce-4d2c-90b9-835973db2cc1",
+          "id": "8601",
+          "type": "PRODUCT",
           "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009414_91d2e756-8b3b-4363-ba91-2c8c8b82eeef.jpg",
-              "__typename": "ProductImage"
-            }
+            "https://courier-images-prod.imgix.net/produc_variant/00008601_94a3137c-b179-4caa-b78b-ea0620ddd897.jpg"
           ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "9048",
-              "price": 7.5,
-              "inventoryItemId": "80347",
-              "shortDescription": null,
-              "title": "Ruffles Original 57g",
-              "published": null,
-              "volume": "0",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Para matar a fome",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
+          "displayName": "Beats Senses 313ml - Unidade",
+          "applicableDiscount": null,
+          "category": null,
+          "brand": null,
+          "price": {
+            "min": 6.49,
+            "max": 6.49
+          }
         },
         {
-          "id": "9449",
-          "title": "Ovinhos de Amendoim Elma Chips",
-          "rgb": false,
+          "shelveId": "733b906f-20ce-4d2c-90b9-835973db2cc1",
+          "id": "12091",
+          "type": "PRODUCT",
           "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009449_edc8f58d-8943-4c17-8b94-10dc60608b09.jpg",
-              "__typename": "ProductImage"
-            }
+            "https://courier-images-prod.imgix.net/produc_variant/00012091_8741402d-b440-45d5-af48-40dd65968b50.jpg"
           ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "9083",
-              "price": 9.9,
-              "inventoryItemId": "80341",
-              "shortDescription": null,
-              "title": "Ovinhos de Amendoim Elma Chips",
-              "published": null,
-              "volume": "0",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Para matar a fome",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
+          "displayName": "Beats GT 313ml",
+          "applicableDiscount": null,
+          "category": null,
+          "brand": null,
+          "price": {
+            "min": 6.99,
+            "max": 6.99
+          }
         },
         {
-          "id": "9447",
-          "title": "Amendoim Japonês Elma Chips",
-          "rgb": false,
+          "shelveId": "733b906f-20ce-4d2c-90b9-835973db2cc1",
+          "id": "11420",
+          "type": "PRODUCT",
           "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/5722613fb7a48.jpg",
-              "__typename": "ProductImage"
-            }
+            "https://courier-images-prod.imgix.net/produc_variant/00011420_ba217e7d-6314-4e21-93b3-bd2744991e8e.jpg"
           ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "9081",
-              "price": 11.9,
-              "inventoryItemId": "80344",
-              "shortDescription": null,
-              "title": "Amendoim Japonês Elma Chips",
-              "published": null,
-              "volume": "0",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": null,
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "9428",
-          "title": "Pringles Original",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009428_adc57e3c-1279-4498-82dc-ce26cadb8dc6.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "9062",
-              "price": 29.9,
-              "inventoryItemId": "80349",
-              "shortDescription": null,
-              "title": "Pringles Original",
-              "published": null,
-              "volume": "0",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Para matar a fome",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "9456",
-          "title": "Torcida Cebola",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009456_ea34eda0-71fe-4d41-9c8c-460475206a3e.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "9090",
-              "price": 5.5,
-              "inventoryItemId": "80306",
-              "shortDescription": null,
-              "title": "Torcida Cebola",
-              "published": null,
-              "volume": "0",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Destaques & Promoções",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "9468",
-          "title": "Pipoca Sabor Natural - 100g",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009468_0eef7058-71b7-4c31-b8a3-473d62f0f710.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "9102",
-              "price": 5.5,
-              "inventoryItemId": "80301",
-              "shortDescription": null,
-              "title": "Pipoca Sabor Natural - 100g",
-              "published": null,
-              "volume": "0",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Para matar a fome",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
-        },
-        {
-          "id": "9470",
-          "title": "Pipoca Sabor Manteiga - 100g",
-          "rgb": false,
-          "images": [
-            {
-              "url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009470_6aeaf4f0-4a58-407c-b651-2f779efd582a.jpg",
-              "__typename": "ProductImage"
-            }
-          ],
-          "productVariants": [
-            {
-              "availableDate": "2018-10-31T00:00:00",
-              "productVariantId": "9104",
-              "price": 5.5,
-              "inventoryItemId": "80302",
-              "shortDescription": null,
-              "title": "Pipoca Sabor Manteiga - 100g",
-              "published": null,
-              "volume": "0",
-              "volumeUnit": null,
-              "description": null,
-              "subtitle": "Para matar a fome",
-              "components": [],
-              "__typename": "ProductVariant"
-            }
-          ],
-          "__typename": "Product"
+          "displayName": "51 Ice Limão 275ml",
+          "applicableDiscount": null,
+          "category": null,
+          "brand": null,
+          "price": {
+            "min": 4.19,
+            "max": 4.19
+          }
         }
       ]
+    },
+    {
+      "id": "922d2ba2-a886-44a3-b30e-d3931812400e",
+      "type": "CATEGORY",
+      "displayName": "Vinhos",
+      "items": [
+        {
+          "shelveId": "922d2ba2-a886-44a3-b30e-d3931812400e",
+          "id": "12744",
+          "type": "PRODUCT",
+          "images": [
+            "https://courier-images-prod.imgix.net/produc_variant/00012744_a9466638-0985-4caa-b183-7844528c2261.jpg"
+          ],
+          "displayName": "Vinho Tinto Reserva Cabernet Sauvignon Foye 750ml",
+          "applicableDiscount": null,
+          "category": null,
+          "brand": null,
+          "price": {
+            "min": 39.89,
+            "max": 39.89
+          }
+        },
+        {
+          "shelveId": "922d2ba2-a886-44a3-b30e-d3931812400e",
+          "id": "12760",
+          "type": "PRODUCT",
+          "images": [
+            "https://courier-images-prod.imgix.net/produc_variant/00012760_95c99317-0b69-47c2-850e-9099ed554979.jpg"
+          ],
+          "displayName": "Espumante Brut Blanc de Blancs De Vergy 750ml",
+          "applicableDiscount": null,
+          "category": null,
+          "brand": null,
+          "price": {
+            "min": 69,
+            "max": 69
+          }
+        },
+        {
+          "shelveId": "922d2ba2-a886-44a3-b30e-d3931812400e",
+          "id": "10549",
+          "type": "PRODUCT",
+          "images": [
+            "https://courier-images-prod.imgix.net/produc_variant/00010549_fb031cea-0a28-460d-acf0-087f7431c287.jpg",
+            "https://courier-images-prod.imgix.net/produc_variant/00010549_909848d6-cbb0-4fda-9a9d-9cccacf1ed8a.jpg",
+            "https://courier-images-prod.imgix.net/produc_variant/00010549_bad01ac6-faed-4bdf-9b0b-0b99f5861018.jpg"
+          ],
+          "displayName": "Vinho Tinto Vivant Lata 269ml",
+          "applicableDiscount": null,
+          "category": null,
+          "brand": null,
+          "price": {
+            "min": 11.99,
+            "max": 11.99
+          }
+        },
+        {
+          "shelveId": "922d2ba2-a886-44a3-b30e-d3931812400e",
+          "id": "10550",
+          "type": "PRODUCT",
+          "images": [
+            "https://courier-images-prod.imgix.net/produc_variant/00010550_b3a444a6-99d7-4711-9f31-5ffe3745d714.jpg",
+            "https://courier-images-prod.imgix.net/produc_variant/00010550_2008deed-bd34-4038-bff6-43042e969575.jpg",
+            "https://courier-images-prod.imgix.net/produc_variant/00010550_2c1fe664-8716-4e59-adf2-442ca543a975.jpg"
+          ],
+          "displayName": "Vinho Branco Vivant Lata 269ml",
+          "applicableDiscount": null,
+          "category": null,
+          "brand": null,
+          "price": {
+            "min": 11.99,
+            "max": 11.99
+          }
+        },
+        {
+          "shelveId": "922d2ba2-a886-44a3-b30e-d3931812400e",
+          "id": "10551",
+          "type": "PRODUCT",
+          "images": [
+            "https://courier-images-prod.imgix.net/produc_variant/00010551_cef5fd97-d457-4e85-afc0-895e9d28245d.jpg",
+            "https://courier-images-prod.imgix.net/produc_variant/00010551_56a81e56-9d6c-4930-a994-eff3dd485417.jpg",
+            "https://courier-images-prod.imgix.net/produc_variant/00010551_02fd34f1-897c-4c10-bc3e-fbce440bd018.jpg",
+            "https://courier-images-prod.imgix.net/produc_variant/00010551_35181212-a47d-4378-8ff6-6d921843b7a3.jpg",
+            "https://courier-images-prod.imgix.net/produc_variant/00010551_b0a0a6d2-75cc-4865-a5af-0e5e254a205a.jpg"
+          ],
+          "displayName": "Vinho Rosé Vivant Lata 269ml",
+          "applicableDiscount": null,
+          "category": null,
+          "brand": null,
+          "price": {
+            "min": 11.99,
+            "max": 11.99
+          }
+        }
+      ]
+    }
+  ],
+
+  "products": [
+    {
+      "shelveId": "e906fd89-ecc2-43a7-89a9-4731543d5e47",
+      "id": "8726",
+      "type": "PRODUCT",
+      "images": [
+        "https://courier-images-prod.imgix.net/produc_variant/00008726_d54d22da-382f-4e76-b941-0fb91098e01c.jpg"
+      ],
+      "displayName": "Skol 300ml | Vasilhame Incluso",
+      "applicableDiscount": null,
+      "category": null,
+      "brand": null,
+      "price": {
+        "min": 2.49,
+        "max": 2.49
+      }
+    },
+    {
+      "shelveId": "e906fd89-ecc2-43a7-89a9-4731543d5e47",
+      "id": "8725",
+      "type": "PRODUCT",
+      "images": [
+        "https://courier-images-prod.imgix.net/produc_variant/00008725_c431fbf8-5f01-4a90-aaa1-a06cff9306e8.jpg"
+      ],
+      "displayName": "Skol 300ml | Apenas o Líquido",
+      "applicableDiscount": null,
+      "category": null,
+      "brand": null,
+      "price": {
+        "min": 1.99,
+        "max": 1.99
+      }
+    },
+    {
+      "shelveId": "e906fd89-ecc2-43a7-89a9-4731543d5e47",
+      "id": "8729",
+      "type": "PRODUCT",
+      "images": [
+        "https://courier-images-prod.imgix.net/produc_variant/00008729_e095d6d8-7491-458c-8225-1ee8e9b76d27.jpg"
+      ],
+      "displayName": "Brahma Chopp 300ml | Apenas o Líquido",
+      "applicableDiscount": null,
+      "category": null,
+      "brand": null,
+      "price": {
+        "min": 1.99,
+        "max": 1.99
+      }
+    },
+    {
+      "shelveId": "e906fd89-ecc2-43a7-89a9-4731543d5e47",
+      "id": "8730",
+      "type": "PRODUCT",
+      "images": [
+        "https://courier-images-prod.imgix.net/produc_variant/00008730_80d814e8-a290-4742-b4d6-91bb95d4bdcb.jpg"
+      ],
+      "displayName": "Brahma Chopp 300ml | Vasilhame Incluso",
+      "applicableDiscount": null,
+      "category": null,
+      "brand": null,
+      "price": {
+        "min": 2.49,
+        "max": 2.49
+      }
+    },
+    {
+      "shelveId": "e906fd89-ecc2-43a7-89a9-4731543d5e47",
+      "id": "8502",
+      "type": "PRODUCT",
+      "images": [
+        "https://courier-images-prod.imgix.net/produc_variant/00008502_8df6cda6-722b-4523-9afd-bb518ec1efb1.jpg"
+      ],
+      "displayName": "Skol 269ml",
+      "applicableDiscount": null,
+      "category": null,
+      "brand": null,
+      "price": {
+        "min": 2.19,
+        "max": 2.19
+      }
+    },
+    {
+      "shelveId": "733b906f-20ce-4d2c-90b9-835973db2cc1",
+      "id": "8599",
+      "type": "PRODUCT",
+      "images": [
+        "https://courier-images-prod.imgix.net/produc_variant/00008599_8d1176b4-22be-4b1c-8e42-824d4a263441.jpg"
+      ],
+      "displayName": "Beats Senses 269ml - Unidade",
+      "applicableDiscount": null,
+      "category": null,
+      "brand": null,
+      "price": {
+        "min": 4.49,
+        "max": 4.49
+      }
+    },
+    {
+      "shelveId": "733b906f-20ce-4d2c-90b9-835973db2cc1",
+      "id": "10802",
+      "type": "PRODUCT",
+      "images": [
+        "https://courier-images-prod.imgix.net/produc_variant/00010802_5b65acc7-bc1c-4e04-a07f-89681962f7f5.jpg"
+      ],
+      "displayName": "Smirnoff Ice 275ml",
+      "applicableDiscount": null,
+      "category": null,
+      "brand": null,
+      "price": {
+        "min": 7.49,
+        "max": 9
+      }
+    },
+    {
+      "shelveId": "733b906f-20ce-4d2c-90b9-835973db2cc1",
+      "id": "8601",
+      "type": "PRODUCT",
+      "images": [
+        "https://courier-images-prod.imgix.net/produc_variant/00008601_94a3137c-b179-4caa-b78b-ea0620ddd897.jpg"
+      ],
+      "displayName": "Beats Senses 313ml - Unidade",
+      "applicableDiscount": null,
+      "category": null,
+      "brand": null,
+      "price": {
+        "min": 6.49,
+        "max": 6.49
+      }
+    },
+    {
+      "shelveId": "733b906f-20ce-4d2c-90b9-835973db2cc1",
+      "id": "12091",
+      "type": "PRODUCT",
+      "images": [
+        "https://courier-images-prod.imgix.net/produc_variant/00012091_8741402d-b440-45d5-af48-40dd65968b50.jpg"
+      ],
+      "displayName": "Beats GT 313ml",
+      "applicableDiscount": null,
+      "category": null,
+      "brand": null,
+      "price": {
+        "min": 6.99,
+        "max": 6.99
+      }
+    },
+    {
+      "shelveId": "733b906f-20ce-4d2c-90b9-835973db2cc1",
+      "id": "11420",
+      "type": "PRODUCT",
+      "images": [
+        "https://courier-images-prod.imgix.net/produc_variant/00011420_ba217e7d-6314-4e21-93b3-bd2744991e8e.jpg"
+      ],
+      "displayName": "51 Ice Limão 275ml",
+      "applicableDiscount": null,
+      "category": null,
+      "brand": null,
+      "price": {
+        "min": 4.19,
+        "max": 4.19
+      }
+    },
+    {
+      "shelveId": "922d2ba2-a886-44a3-b30e-d3931812400e",
+      "id": "12744",
+      "type": "PRODUCT",
+      "images": [
+        "https://courier-images-prod.imgix.net/produc_variant/00012744_a9466638-0985-4caa-b183-7844528c2261.jpg"
+      ],
+      "displayName": "Vinho Tinto Reserva Cabernet Sauvignon Foye 750ml",
+      "applicableDiscount": null,
+      "category": null,
+      "brand": null,
+      "price": {
+        "min": 39.89,
+        "max": 39.89
+      }
+    },
+    {
+      "shelveId": "922d2ba2-a886-44a3-b30e-d3931812400e",
+      "id": "12760",
+      "type": "PRODUCT",
+      "images": [
+        "https://courier-images-prod.imgix.net/produc_variant/00012760_95c99317-0b69-47c2-850e-9099ed554979.jpg"
+      ],
+      "displayName": "Espumante Brut Blanc de Blancs De Vergy 750ml",
+      "applicableDiscount": null,
+      "category": null,
+      "brand": null,
+      "price": {
+        "min": 69,
+        "max": 69
+      }
+    },
+    {
+      "shelveId": "922d2ba2-a886-44a3-b30e-d3931812400e",
+      "id": "10549",
+      "type": "PRODUCT",
+      "images": [
+        "https://courier-images-prod.imgix.net/produc_variant/00010549_fb031cea-0a28-460d-acf0-087f7431c287.jpg",
+        "https://courier-images-prod.imgix.net/produc_variant/00010549_909848d6-cbb0-4fda-9a9d-9cccacf1ed8a.jpg",
+        "https://courier-images-prod.imgix.net/produc_variant/00010549_bad01ac6-faed-4bdf-9b0b-0b99f5861018.jpg"
+      ],
+      "displayName": "Vinho Tinto Vivant Lata 269ml",
+      "applicableDiscount": null,
+      "category": null,
+      "brand": null,
+      "price": {
+        "min": 11.99,
+        "max": 11.99
+      }
+    },
+    {
+      "shelveId": "922d2ba2-a886-44a3-b30e-d3931812400e",
+      "id": "10550",
+      "type": "PRODUCT",
+      "images": [
+        "https://courier-images-prod.imgix.net/produc_variant/00010550_b3a444a6-99d7-4711-9f31-5ffe3745d714.jpg",
+        "https://courier-images-prod.imgix.net/produc_variant/00010550_2008deed-bd34-4038-bff6-43042e969575.jpg",
+        "https://courier-images-prod.imgix.net/produc_variant/00010550_2c1fe664-8716-4e59-adf2-442ca543a975.jpg"
+      ],
+      "displayName": "Vinho Branco Vivant Lata 269ml",
+      "applicableDiscount": null,
+      "category": null,
+      "brand": null,
+      "price": {
+        "min": 11.99,
+        "max": 11.99
+      }
+    },
+    {
+      "shelveId": "922d2ba2-a886-44a3-b30e-d3931812400e",
+      "id": "10551",
+      "type": "PRODUCT",
+      "images": [
+        "https://courier-images-prod.imgix.net/produc_variant/00010551_cef5fd97-d457-4e85-afc0-895e9d28245d.jpg",
+        "https://courier-images-prod.imgix.net/produc_variant/00010551_56a81e56-9d6c-4930-a994-eff3dd485417.jpg",
+        "https://courier-images-prod.imgix.net/produc_variant/00010551_02fd34f1-897c-4c10-bc3e-fbce440bd018.jpg",
+        "https://courier-images-prod.imgix.net/produc_variant/00010551_35181212-a47d-4378-8ff6-6d921843b7a3.jpg",
+        "https://courier-images-prod.imgix.net/produc_variant/00010551_b0a0a6d2-75cc-4865-a5af-0e5e254a205a.jpg"
+      ],
+      "displayName": "Vinho Rosé Vivant Lata 269ml",
+      "applicableDiscount": null,
+      "category": null,
+      "brand": null,
+      "price": {
+        "min": 11.99,
+        "max": 11.99
+      }
     }
   ]
 }
