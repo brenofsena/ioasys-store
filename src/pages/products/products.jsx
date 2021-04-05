@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Header, Footer, Cart, Spinner, ProductList } from "components";
+import { Header, Footer, Spinner, ProductList } from "components";
 import * as S from "./styles";
 import api from "services/api";
 
@@ -40,7 +40,6 @@ const Products = () => {
           ))
         )}
       </S.Section>
-      <Cart />
       <Footer />
     </S.ProductsWrapper>
   );
