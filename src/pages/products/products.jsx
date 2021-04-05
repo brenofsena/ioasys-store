@@ -1,28 +1,16 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { Header, Footer, Spinner, ProductList } from "components";
 import * as S from "./styles";
-import api from "services/api";
+import { useDispatch, useSelector } from "react-redux";
+import { GET_PRODUCTS } from "store/slices/productSlice";
 
 const Products = () => {
-  const [shelves, setShelves] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
-
-  const getShelves = async () => {
-    setIsLoading(true);
-
-    try {
-      const { data } = await api.get("/shelves");
-      setShelves(data);
-    } catch (error) {
-      console.error(`Erro: ${error.message}`);
-    }
-
-    setIsLoading(false);
-  };
+  const dispatch = useDispatch();
+  const { products, isLoading } = useSelector(({ product }) => product);
 
   useEffect(() => {
-    getShelves();
-  }, []);
+    dispatch(GET_PRODUCTS());
+  }, [dispatch]);
 
   return (
     <S.ProductsWrapper>
@@ -31,7 +19,7 @@ const Products = () => {
         {isLoading ? (
           <Spinner />
         ) : (
-          shelves.map(({ displayName, items }, index) => (
+          products.map(({ displayName, items }, index) => (
             <ProductList
               key={index}
               categoryTitle={displayName}
