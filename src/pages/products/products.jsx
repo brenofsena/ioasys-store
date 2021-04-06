@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Header, Footer, Spinner, ProductList } from "components";
-import * as S from "./styles";
+import * as C from "components/common/styles";
 import { useDispatch, useSelector } from "react-redux";
 import { GET_PRODUCTS } from "store/slices/productSlice";
 
@@ -13,9 +13,9 @@ const Products = () => {
   }, [dispatch]);
 
   return (
-    <S.ProductsWrapper>
+    <C.Wrapper>
       <Header />
-      <S.Section>
+      <C.Section>
         {isLoading ? (
           <Spinner />
         ) : (
@@ -27,9 +27,9 @@ const Products = () => {
             />
           ))
         )}
-      </S.Section>
+      </C.Section>
       <Footer />
-    </S.ProductsWrapper>
+    </C.Wrapper>
   );
 };
 

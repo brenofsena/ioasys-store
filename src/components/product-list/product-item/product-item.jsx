@@ -1,24 +1,38 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 import { formatCurrency } from "utils/helpers";
 import * as S from "./styles";
+import * as C from "components/common/styles";
+import { useDispatch } from "react-redux";
+import { ADD_ITEM } from "store/slices/cartSlice";
 
-const ProductItem = ({ id, title, images, price }) => {
+const ProductItem = ({ id, title, imageUrl, price }) => {
+  const dispatch = useDispatch();
+
+  const addItem = (item) => dispatch(ADD_ITEM({ item }));
+
   return (
     <S.ProductItem key={id}>
-      <S.ProductImage
-        data-testid="image"
-        src={images[0]}
-        alt={title}
-        title={title}
-      />
+      <Link to={`/produtos/${id}`}>
+        <S.ProductImage
+          data-testid="image"
+          src={imageUrl}
+          alt={title}
+          title={title}
+        />
+      </Link>
       <S.ProductInfo>
         <S.ProductTitle data-testid="title">{title}</S.ProductTitle>
         <S.ProductPrice data-testid="price">
           {formatCurrency(price)}
         </S.ProductPrice>
         <S.ProductActions>
-          <S.ProductBuyButton>Adicionar</S.ProductBuyButton>
+          <C.ProductBuyButton
+            onClick={() => addItem({ id, title, imageUrl, price, quantity: 1 })}
+          >
+            Adicionar
+          </C.ProductBuyButton>
         </S.ProductActions>
       </S.ProductInfo>
     </S.ProductItem>
@@ -28,7 +42,7 @@ const ProductItem = ({ id, title, images, price }) => {
 ProductItem.propTypes = {
   id: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  images: PropTypes.instanceOf(Array).isRequired,
+  imageUrl: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,
 };
 

@@ -1,17 +1,14 @@
-import styled from 'styled-components';
+import styled from "styled-components";
+import { rem } from "polished";
 
-export const ProductsWrapper = styled.div`
-  background: ${(props) => props.theme.colors.whiteSoft};
-  min-height: 100vh;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-between;
+export const ProductImage = styled.img`
+  max-width: 200px;
+  height: auto;
+  margin-bottom: ${rem("16px")};
 `;
 
-export const Section = styled.section`
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  flex-grow: 1;
+export const ProductTitle = styled.h1`
+  color: ${(props) => props.theme.colors.gray};
+  font-weight: 500;
+  font-size: ${rem("18px")};
 `;

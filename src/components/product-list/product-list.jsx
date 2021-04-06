@@ -40,7 +40,7 @@ const ProductList = ({ categoryTitle, products }) => {
               key={id}
               id={id}
               title={displayName}
-              images={images}
+              imageUrl={images[0]}
               price={price.max}
             />
           ))}
