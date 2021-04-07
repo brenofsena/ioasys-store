@@ -4,31 +4,25 @@ import { ReactComponent as BagIcon } from "assets/icons/bag.svg";
 import { ReactComponent as TrashIcon } from "assets/icons/trash.svg";
 import { formatCurrency } from "utils/helpers";
 import * as S from "./styles";
+import { useDispatch, useSelector } from "react-redux";
+import { REMOVE_ITEM } from "store/slices/cartSlice";
 
-const Cart = ({ cartItems }) => {
+const Cart = () => {
+  const dispatch = useDispatch();
   const [isOpen, setIsOpen] = useState(false);
+  const { items } = useSelector(({ cart }) => cart);
 
-  const handleOpenCart = () => {
-    setIsOpen(true);
-  };
+  const handleOpenCart = () => setIsOpen(true);
 
-  const handleCloseCart = () => {
-    setIsOpen(false);
-  };
+  const handleCloseCart = () => setIsOpen(false);
 
-  const getPrice = () =>
-    formatCurrency(
-      cartItems?.reduce(
-        (prev, current) => prev + current.price * current.quantity,
-        0
-      ) ?? 0
-    );
+  const removeItem = (id) => dispatch(REMOVE_ITEM({ id }));
 
   return (
     <>
       <S.Bag onClick={handleOpenCart} data-testid="bag">
         <BagIcon width={24} height={24} />
-        <span data-testid="quantity-items">{cartItems?.length}</span>
+        <span data-testid="quantity-items">{items?.length}</span>
       </S.Bag>
 
       {isOpen && (
@@ -45,9 +39,9 @@ const Cart = ({ cartItems }) => {
               />
             </S.CartHeader>
 
-            {cartItems && cartItems.length ? (
+            {items && items.length ? (
               <S.CartList data-testid="cart-list">
-                {cartItems?.map(({ id, title, price, imageUrl, quantity }) => (
+                {items.map(({ id, title, price, imageUrl, quantity }) => (
                   <li key={id}>
                     <div>
                       <span data-testid={`${title}-quantity`}>{quantity}x</span>
@@ -61,7 +55,7 @@ const Cart = ({ cartItems }) => {
                       <span data-testid={`${title}-price`}>
                         {formatCurrency(price)}
                       </span>
-                      <button>
+                      <button onClick={() => removeItem(id)}>
                         <TrashIcon width={24} height={24} />
                       </button>
                     </div>
@@ -76,7 +70,16 @@ const Cart = ({ cartItems }) => {
 
             <S.CartFooter>
               <S.CartTotals>
-                Total: <strong>{getPrice()}</strong>
+                Total:{" "}
+                <strong>
+                  {formatCurrency(
+                    items?.reduce(
+                      (prev, current) =>
+                        prev + current.price * current.quantity,
+                      0
+                    )
+                  )}
+                </strong>
               </S.CartTotals>
             </S.CartFooter>
           </S.CartWrapper>
